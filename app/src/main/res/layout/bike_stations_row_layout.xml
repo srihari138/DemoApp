@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardCornerRadius="8dp"
+    android:layout_marginBottom="6dp">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/singleRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/bikeStationImageView"
+                android:background="@drawable/bike_station0"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+
+            <TextView
+                android:id="@+id/bikeStationNameTextView"
+                android:text="Bike Station Name"
+                android:textSize="17sp"
+                android:layout_marginTop="6dp"
+                android:maxLines="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/bikeStationImageView"
+                android:layout_toEndOf="@+id/bikeStationImageView"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp" />
+
+            <TextView
+                android:id="@+id/bikeStationAddressTextView"
+                android:text="Address"
+                android:textSize="14sp"
+                android:maxLines="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bikeStationNameTextView"
+                android:layout_alignLeft="@+id/bikeStationNameTextView"
+                android:layout_alignStart="@+id/bikeStationNameTextView" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_below="@+id/singleRow"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#f2f2f2" />
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

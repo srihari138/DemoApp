@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Bike Station</string>
+    <string name="bike_station_activity">Bike Stations</string>
+    <string name="bike_station_location">Bike Station Location</string>
+    <string name="bike_station_detail_activity">Bike Station</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_bike_stations_map_location">Map</string>
+
+
+    <string name="static_bike_station_data">
+
+
+[{\"number\":42,\"name\":\"SMITHFIELD NORTH\",\"address\":\"Smithfield North\",\"position\":{\"lat\":53.349562,\"lng\":-6.278198},\"banking\":true,\"bonus\":false,\"status\":\"OPEN\",\"contract_name\":\"Dublin\",\"bike_stands\":30,\"available_bike_stands\":14,\"available_bikes\":16,\"last_update\":1524142207000},{\"number\":30,\"name\":\"PARNELL SQUARE NORTH\",\"address\":\"Parnell Square North\",\"position\":{\"lat\":53.353462,\"lng\":-6.265305},\"banking\":true,\"bonus\":false,\"status\":\"OPEN\",\"contract_name\":\"Dublin\",\"bike_stands\":20,\"available_bike_stands\":3,\"available_bikes\":17,\"last_update\":1524142607000},{\"number\":54,\"name\":\"CLONMEL STREET\",\"address\":\"Clonmel Street\",\"position\":{\"lat\":53.336021,\"lng\":-6.26298},\"banking\":false,\"bonus\":false,\"status\":\"OPEN\",\"contract_name\":\"Dublin\",\"bike_stands\":33,\"available_bike_stands\":33,\"available_bikes\":0,\"last_update\":1524142314000},{\"number\":56,\"name\":\"MOUNT STREET LOWER\",\"address\":\"Mount Street Lower\",\"position\":{\"lat\":53.33796,\"lng\":-6.24153},\"banking\":false,\"bonus\":false,\"status\":\"OPEN\",\"contract_name\":\"Dublin\",\"bike_stands\":40,\"available_bike_stands\":30,\"available_bikes\":10,\"last_update\":1524142663000},{\"number\":6,\"name\":\"CHRISTCHURCH PLACE\",\"address\":\"Christchurch Place\",\"position\":{\"lat\":53.343368,\"lng\":-6.27012},\"banking\":false,\"bonus\":false,\"status\":\"OPEN\",\"contract_name\":\"Dublin\",\"bike_stands\":20,\"available_bike_stands\":18,\"available_bikes\":2,\"last_update\":1524142715000},{\"number\":18,\"name\":\"GRANTHAM STREET\",\"address\":\"Grantham Street\",\"position\":{\"lat\":53.334123,\"lng\":-6.265436},\"banking\":true,\"bonus\":false,\"status\":\"OPEN\",\"contract_name\":\"Dublin\",\"bike_stands\":30,\"available_bike_stands\":30,\"available_bikes\":0,\"last_update\":1524142488000},{\"number\":32,\"name\":\"PEARSE STREET\",\"address\":\"Pearse Street\",\"position\":{\"lat\":53.344304,\"lng\":-6.250427},\"banking\":true,\"bonus\":false,\"status\":\"OPEN\",\"contract_name\":\"Dublin\",\"bike_stands\":30,\"available_bike_stands\":10,\"available_bikes\":18,\"last_update\":1524142676000},{\"number\":52,\"name\":\"YORK STREET EAST\",\"address\":\"York Street East\",\"position\":{\"lat\":53.338755,\"lng\":-6.262003},\"banking\":false,\"bonus\":false,\"status\":\"OPEN\",\"contract_name\":\"Dublin\",\"bike_stands\":32,\"available_bike_stands\":1,\"available_bikes\":28,\"last_update\":1524142487000},{\"number\":48,\"name\":\"EXCISE WALK\",\"address\":\"Excise Walk\",\"position\":{\"lat\":53.347777,\"lng\":-6.244239},\"banking\":false,\"bonus\":false,\"status\":\"OPEN\",\"contract_name\":\"Dublin\",\"bike_stands\":40,\"available_bike_stands\":5,\"available_bikes\":34,\"last_update\":1524142714000},{\"number\":13,\"name\":\"FITZWILLIAM SQUARE WEST\",\"address\":\"Fitzwilliam Square West\",\"position\":{\"lat\":53.336074,\"lng\":-6.252825},\"banking\":false,\"bonus\":false,\"status\":\"OPEN\",\"contract_name\":\"Dublin\",\"bike_stands\":30,\"available_bike_stands\":6,\"available_bikes\":24,\"last_update\":1524142472000}]</string>
+</resources>
